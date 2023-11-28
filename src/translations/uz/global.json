@@ -1,0 +1,55 @@
+{
+  "header": {
+    "home": "Asosiy",
+    "about": "Haqimda",
+    "resume": "Rezume",
+    "project": "Loyiha",
+    "contact": "Aloqa"
+  },
+  "section-one": {
+    "frontend": "Frontend",
+    "developer": "Dasturchi",
+    "react": "React",
+    "redux": "Redux",
+    "toContact": "Bog'lanish",
+    "available": "Yonlash uchun mavjud"
+  },
+  "section-two": {
+    "hello": "Salom! Men",
+    "name": "Shoxrux Asadov",
+    "job": "Frontend Dasturchi",
+    "city": "O'zbekistondan",
+    "skill": "Asosiy Ko'nikmalar",
+    "subtitle": "Frontend ishlab chiqishga bo'lgan ishtiyoqim va mustahkam texnik ko'nikmalarim bilan men innovatsion loyihalarga hissa qo'shishga va ajoyib dasturlar taqdim etishga tayyorman."
+  },
+  "section-three": {
+    "edu": "Ta'lim",
+    "exp": "Tajriba",
+    "tuitName": "Toshkent Axborot Texnologiyalari Universiteti",
+    "tuitDire": "Dasturiy Injiniring",
+    "tuitYear": "Sentyabr 2022 - Iyun 2026",
+    "shiftName": "Shift Academy",
+    "shiftDire": "Full Stack Dasturchi",
+    "shiftYear": "Dekabr 2022 - Dekabr 2023",
+    "upworkName": "Upwork",
+    "upworkYear": "Iyun 2023 ...",
+    "kworkName": "Kwork",
+    "kworkYear": "Iyun 2023 ..."
+  },
+  "section-four": {
+    "portfolio": "Portfel",
+    "project": "Loyiha",
+    "seeall": "Mening barcha portfelim",
+    "omengamesTitle": "O'yinlar Do'koni",
+    "lorenzonTitle": "Musiqa Playeri",
+    "puzzleTitle": "O'yin"
+  },
+  "footer":{
+    "have": "Loyihangiz bormi?",
+    "lets": "Birga ishlaylik!"
+  },
+  "error": {
+    "title": "Kechirasiz, siz tashrif buyurgan sahifa mavjud emas.",
+    "button": "Asosiy Sahifaga"
+  }
+}

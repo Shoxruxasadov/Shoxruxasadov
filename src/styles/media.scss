@@ -1,0 +1,1652 @@
+@media (max-width: 1500px) {
+  header .container {
+    max-width: 1300px !important;
+  }
+  main .container {
+    max-width: 1300px !important;
+
+    .section-four .projects .project {
+      height: 425px !important;
+    }
+  }
+  footer .container {
+    max-width: 1300px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  header .container {
+    max-width: 1200px !important;
+  }
+  main .container {
+    max-width: 1200px !important;
+
+    .section-four {
+      .portfolio {
+        font-size: 48px;
+      }
+      .projects .project {
+        height: 400px !important;
+      }
+    }
+  }
+  footer .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  header .container {
+    max-width: 1100px !important;
+  }
+  main .container {
+    max-width: 1100px !important;
+
+    .section-one {
+      padding-top: 200px !important;
+      .title {
+        h1 {
+          font-size: 72px;
+          line-height: 77px;
+        }
+        div {
+          gap: 20px;
+          .toContact {
+            width: 180px;
+            height: 61.2px;
+
+            span {
+              line-height: 61.2px !important;
+            }
+          }
+          p {
+            font-size: 24px;
+          }
+        }
+      }
+      .image {
+        width: 500px !important;
+        height: 390px !important;
+      }
+    }
+    .section-two {
+      .about h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    }
+    .section-four {
+      .portfolio {
+        font-size: 44px;
+      }
+      .all-project {
+        font-size: 20px;
+      }
+      .projects .project {
+        height: 360px !important;
+      }
+    }
+  }
+  footer .container {
+    max-width: 1100px !important;
+
+    .LetsWork {
+      font-size: 38px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  header .container {
+    max-width: 1000px !important;
+  }
+  main .container {
+    max-width: 1000px !important;
+
+    .section-one {
+      padding-top: 175px !important;
+
+      .title {
+        h1 {
+          font-size: 64px;
+          line-height: 64px;
+        }
+        div {
+          gap: 18px;
+          .toContact {
+            width: 151px;
+            height: 51px;
+
+            span {
+              font-size: 20px;
+              line-height: 51px !important;
+            }
+          }
+          p {
+            font-size: 22px;
+          }
+        }
+      }
+      .image {
+        width: 470px !important;
+        height: 366px !important;
+      }
+    }
+    .section-two {
+      .about {
+        h1 {
+          font-size: 36px;
+          line-height: 44px;
+        }
+        h2 {
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+      .skills {
+        transform: scale(0.94);
+      }
+    }
+    .section-three {
+      margin-bottom: 120px !important;
+      .education,
+      .experience {
+        .edu,
+        .exp {
+          .edu-title,
+          .exp-title {
+            h1 {
+              font-size: 19px;
+            }
+            h2 {
+              font-size: 17px;
+            }
+            h3 {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+    .section-four {
+      .portfolio {
+        font-size: 44px;
+      }
+      .all-project {
+        font-size: 20px;
+      }
+
+      .projects .project {
+        height: 325px !important;
+
+        .content {
+          p {
+            margin-bottom: 15px;
+          }
+          h1 {
+            margin: 7px 0 40px;
+          }
+          .prolang {
+            margin-bottom: 25px;
+          }
+          a {
+            margin-top: 30px;
+
+            &:hover,
+            &:focus {
+              margin-top: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer .container {
+    max-width: 1000px !important;
+
+    .LetsWork {
+      top: -140px;
+      font-size: 34px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  header .container {
+    max-width: 900px !important;
+  }
+  main .container {
+    max-width: 900px !important;
+
+    .section-one {
+      padding-top: 150px !important;
+
+      .title {
+        gap: 40px;
+        h1 {
+          font-size: 58px;
+          line-height: 58px;
+        }
+
+        div {
+          gap: 15px;
+
+          .toContact {
+            width: 120px;
+            height: 40px;
+
+            span {
+              font-size: 17px;
+              line-height: 40px !important;
+            }
+          }
+
+          p {
+            font-size: 21px;
+          }
+        }
+      }
+      .image {
+        width: 430px !important;
+        height: 330px !important;
+      }
+    }
+    .section-two {
+      position: relative;
+      .about {
+        h1 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+        h2 {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+      .skills {
+        transform: scale(0.8);
+        position: absolute;
+        right: -10px;
+      }
+    }
+    .section-three {
+      margin-bottom: 80px !important;
+
+      .education,
+      .experience {
+        .edu,
+        .exp {
+          height: 70px;
+          .edu-title,
+          .exp-title {
+            h1 {
+              font-size: 16px;
+            }
+            h2 {
+              font-size: 14px;
+            }
+            h3 {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .section-four {
+      margin-bottom: 300px !important;
+      .portfolio {
+        font-size: 38px;
+        line-height: 50px;
+
+        img {
+          height: 50px;
+        }
+      }
+      .all-project {
+        font-size: 20px;
+      }
+
+      .projects .project {
+        height: 300px !important;
+
+        .content {
+          p {
+            margin-bottom: 10px;
+            font-size: 12px;
+          }
+          h1 {
+            margin: 5px 0 36px;
+            font-size: 28px;
+          }
+          .prolang {
+            margin-bottom: 20px;
+          }
+          h3{
+            font-size: 14px;
+          }
+          a {
+            margin-top: 25px;
+            padding: 7px 18px;
+            max-width: 90px;
+            font-size: 14px;
+
+            &:hover,
+            &:focus {
+              margin-top: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer .container {
+    max-width: 900px !important;
+
+    .LetsWork {
+      top: -120px;
+      font-size: 32px;
+      line-height: 50px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  header .container {
+    max-width: 800px !important;
+  }
+  main .container {
+    max-width: 800px !important;
+
+    .section-one {
+      padding-top: 145px !important;
+
+      .title {
+        gap: 40px;
+        h1 {
+          font-size: 52px;
+          line-height: 54px;
+        }
+
+        div {
+          gap: 10px;
+
+          .toContact {
+            width: 110px;
+            height: 35px;
+
+            span {
+              font-size: 15px;
+              line-height: 35px !important;
+            }
+          }
+
+          p {
+            font-size: 19px;
+          }
+        }
+      }
+      .image {
+        width: 390px !important;
+        height: 300px !important;
+      }
+    }
+    .section-two {
+      position: relative;
+      .about {
+        h1 {
+          font-size: 28px;
+          line-height: 36px;
+        }
+        h2 {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+      .skills {
+        transform: scale(0.7);
+        position: absolute;
+        right: -35px;
+      }
+    }
+    .section-three {
+      margin-bottom: 80px !important;
+
+      .education,
+      .experience {
+        .edu,
+        .exp {
+          height: 60px;
+          .edu-title,
+          .exp-title {
+            h1 {
+              font-size: 15px;
+            }
+            h2 {
+              font-size: 13px;
+            }
+            h3 {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+    .section-four {
+      margin-bottom: 300px !important;
+      .portfolio {
+        font-size: 34px;
+        line-height: 50px;
+
+        img {
+          height: 50px;
+        }
+      }
+      .all-project {
+        font-size: 18px;
+      }
+      .projects .project {
+        height: 260px !important;
+
+        .content {
+          p {
+            margin-bottom: 5px;
+            font-size: 12px;
+          }
+          h1 {
+            margin: 4px 0 25px;
+            font-size: 28px;
+
+            &::before {
+              bottom: -9px;
+            }
+          }
+          .prolang {
+            margin-bottom: 15px;
+            svg{
+              font-size: 22px!important;
+            }
+          }
+          h3{
+            font-size: 14px;
+          }
+          a {
+            margin-top: 20px;
+            padding: 7px 18px;
+            max-width: 90px;
+            font-size: 14px;
+
+            &:hover,
+            &:focus {
+              margin-top: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer .container {
+    max-width: 800px !important;
+
+    .LetsWork {
+      top: -110px;
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  header .container {
+    max-width: 700px !important;
+
+    .list {
+      gap: 20px !important;
+
+      .listUl {
+        display: none !important;
+      }
+
+      .menu {
+        display: block !important;
+      }
+    }
+  }
+
+  main .container {
+    max-width: 700px !important;
+
+    .section-one {
+      flex-direction: column;
+      gap: 40px;
+
+      .title {
+        width: 100% !important;
+
+        h1 {
+          font-size: 90px !important;
+          line-height: 100px;
+          text-align: center;
+        }
+        div {
+          justify-content: space-between;
+
+          .toContact {
+            width: 200px !important;
+            height: 68px !important;
+
+            span {
+              font-size: 24px;
+              line-height: 69px !important;
+            }
+          }
+
+          p {
+            font-size: 36px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 530px !important;
+      }
+    }
+
+    .section-two {
+      flex-direction: column;
+      gap: 100px;
+      padding: 170px 10px 100px;
+
+      .about {
+        width: 100%;
+        height: auto;
+
+        p {
+          font-size: 22px;
+          text-align: center;
+          padding-bottom: 10px;
+        }
+
+        h1 {
+          font-size: 50px;
+          line-height: 55px;
+          text-align: center;
+        }
+        h2 {
+          font-size: 36px;
+          line-height: 40px;
+          text-align: center;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(1.2) translateX(13%);
+      }
+    }
+
+    .section-three {
+      flex-direction: column;
+      gap: 80px;
+
+      .education {
+        width: 100% !important;
+
+        p {
+          font-size: 22px;
+          text-align: center;
+        }
+
+        .edu {
+          flex-direction: column;
+          align-items: center;
+          height: auto !important;
+
+          img {
+            height: 140px;
+          }
+
+          .edu-title {
+            gap: 10px;
+
+            h1 {
+              text-align: center;
+              font-size: 28px;
+            }
+            h2 {
+              text-align: center;
+              font-size: 24px;
+            }
+            h3 {
+              text-align: center;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      .experience {
+        width: 100% !important;
+
+        p {
+          font-size: 22px;
+          text-align: center;
+        }
+
+        .exp {
+          flex-direction: column;
+          align-items: center;
+          height: auto !important;
+
+          img {
+            height: 140px;
+          }
+
+          .exp-title {
+            gap: 10px;
+
+            h1 {
+              text-align: center;
+              font-size: 28px;
+            }
+            h2 {
+              text-align: center;
+              font-size: 24px;
+            }
+            h3 {
+              text-align: center;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      gap: 40px;
+
+      .portfolio {
+        font-size: 58px;
+      }
+
+      .all-project {
+        font-size: 28px;
+      }
+
+      .projects .project {
+        height: auto !important;
+        flex-direction: column !important;
+
+        img{
+          height: auto;
+          width: 100%;
+        }
+
+        .content {
+          padding: 5px 10px 10px;
+          p {
+            margin-bottom: 14px;
+            font-size: 14px;
+          }
+          h1 {
+            margin: 10px 0 40px;
+            font-size: 30px;
+
+            &::before {
+              bottom: -13px;
+            }
+          }
+          .prolang {
+            margin-bottom: 25px;
+            svg{
+              font-size: 24px!important;
+            }
+          }
+          h3{
+            font-size: 16px;
+          }
+          a {
+            margin-top: 30px;
+            padding: 10px 20px;
+            max-width: 100px;
+            font-size: 16px;
+
+            &:hover,
+            &:focus {
+              margin-top: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer .container {
+    max-width: 700px !important;
+    gap: 20px;
+
+    .LetsWork {
+      top: -120px;
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    .footer-top {
+      padding: 20px 0 10px;
+
+      .contacts {
+        flex-direction: column;
+        gap: 20px;
+
+        .contact {
+          &.calllock {
+            width: auto !important;
+          }
+          svg {
+            font-size: 27px;
+          }
+          span {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0 20px;
+
+      .social {
+        div {
+          a {
+            svg {
+              font-size: 27px !important;
+            }
+            span {
+              font-size: 26px !important;
+            }
+          }
+        }
+      }
+
+      .ooo p {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  header .container {
+    max-width: 650px !important;
+  }
+
+  main .container {
+    max-width: 650px !important;
+
+    .section-one {
+      gap: 40px;
+
+      .title {
+        h1 {
+          font-size: 80px !important;
+          line-height: 90px;
+          text-align: center;
+        }
+        div {
+          .toContact {
+            width: 190px !important;
+            height: 64px !important;
+
+            span {
+              font-size: 24px;
+              line-height: 66px !important;
+            }
+          }
+
+          p {
+            font-size: 34px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 490px !important;
+      }
+    }
+
+    .section-two {
+      .about {
+        h1 {
+          font-size: 46px;
+          line-height: 54px;
+        }
+        h2 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(1.1) translateX(18%);
+      }
+    }
+
+    .section-three {
+      gap: 70px;
+      .education {
+        .edu {
+          img {
+            height: 130px;
+          }
+          .edu-title {
+            h1 {
+              font-size: 28px;
+            }
+            h2 {
+              font-size: 26px;
+            }
+            h3 {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .experience {
+        .exp {
+          img {
+            height: 130px;
+          }
+          .exp-title {
+            h1 {
+              font-size: 28px;
+            }
+            h2 {
+              font-size: 26px;
+            }
+            h3 {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      gap: 35px;
+
+      .portfolio {
+        font-size: 52px;
+      }
+
+      .all-project {
+        font-size: 26px;
+      }
+
+
+    }
+  }
+
+  footer .container {
+    max-width: 650px !important;
+
+    .LetsWork {
+      top: -110px;
+      font-size: 38px;
+      line-height: 48px;
+    }
+
+    .footer-top {
+      padding: 20px 0 10px;
+
+      .contacts {
+        flex-direction: column;
+        gap: 20px;
+
+        .contact {
+          &.calllock {
+            width: auto !important;
+          }
+          svg {
+            font-size: 25px;
+          }
+          span {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0 20px;
+
+      .social {
+        div {
+          a {
+            svg {
+              font-size: 25px !important;
+            }
+            span {
+              font-size: 24px !important;
+            }
+          }
+        }
+      }
+
+      .ooo p {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  header .container {
+    max-width: 600px !important;
+  }
+
+  main .container {
+    max-width: 600px !important;
+
+    .section-one {
+      gap: 40px;
+
+      .title {
+        h1 {
+          font-size: 75px !important;
+          line-height: 85px;
+        }
+        div {
+          .toContact {
+            width: 180px !important;
+            height: 60px !important;
+
+            span {
+              font-size: 24px;
+              line-height: 62px !important;
+            }
+          }
+
+          p {
+            font-size: 31px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 450px !important;
+      }
+    }
+
+    .section-two {
+      gap: 70px;
+
+      .about {
+        h1 {
+          font-size: 40px;
+          line-height: 48px;
+        }
+        h2 {
+          font-size: 28px;
+          line-height: 36px;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(1) translateX(25%);
+      }
+    }
+
+    .section-three {
+      gap: 70px;
+      .education {
+        .edu {
+          img {
+            height: 120px;
+          }
+          .edu-title {
+            h1 {
+              font-size: 26px;
+            }
+            h2 {
+              font-size: 24px;
+            }
+            h3 {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+      .experience {
+        .exp {
+          img {
+            height: 120px;
+          }
+          .exp-title {
+            h1 {
+              font-size: 26px;
+            }
+            h2 {
+              font-size: 24px;
+            }
+            h3 {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      gap: 30px;
+
+      .portfolio {
+        font-size: 48px;
+      }
+
+      .all-project {
+        font-size: 24px;
+      }
+    }
+  }
+
+  footer .container {
+    max-width: 600px !important;
+
+    .LetsWork {
+      top: -105px;
+      right: 20px;
+      font-size: 35px;
+      line-height: 45px;
+    }
+
+    .footer-top {
+      padding: 20px 0 10px;
+
+      .contacts {
+        flex-direction: column;
+        gap: 20px;
+
+        .contact {
+          &.calllock {
+            width: auto !important;
+          }
+          svg {
+            font-size: 21px;
+          }
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0 20px;
+
+      .social {
+        div {
+          a {
+            svg {
+              font-size: 21px !important;
+            }
+            span {
+              font-size: 20px !important;
+            }
+          }
+        }
+      }
+
+      .ooo p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  header .container {
+    max-width: 500px !important;
+  }
+
+  main .container {
+    max-width: 500px !important;
+
+    .section-one {
+      gap: 40px;
+
+      .title {
+        h1 {
+          font-size: 64px !important;
+          line-height: 72px;
+        }
+        div {
+          .toContact {
+            width: 170px !important;
+            height: 55px !important;
+
+            span {
+              font-size: 23px;
+              line-height: 56px !important;
+            }
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 370px !important;
+      }
+    }
+
+    .section-two {
+      gap: 70px;
+
+      .about {
+        h1 {
+          font-size: 36px;
+          line-height: 44px;
+        }
+        h2 {
+          font-size: 26px;
+          line-height: 34px;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(0.88) translateX(37%);
+      }
+    }
+
+    .section-three {
+      gap: 70px;
+      .education {
+        .edu {
+          img {
+            height: 110px;
+          }
+          .edu-title {
+            h1 {
+              font-size: 24px;
+            }
+            h2 {
+              font-size: 22px;
+            }
+            h3 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .experience {
+        .exp {
+          img {
+            height: 110px;
+          }
+          .exp-title {
+            h1 {
+              font-size: 24px;
+            }
+            h2 {
+              font-size: 22px;
+            }
+            h3 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      gap: 30px;
+
+      .portfolio {
+        font-size: 42px;
+      }
+
+      .all-project {
+        font-size: 22px;
+      }
+
+    }
+  }
+
+  footer .container {
+    max-width: 500px !important;
+
+    .LetsWork {
+      top: -100px;
+      right: 20px;
+      font-size: 32px;
+      line-height: 42px;
+    }
+
+    .footer-top {
+      padding: 20px 0 10px;
+
+      .contacts {
+        flex-direction: column;
+        gap: 20px;
+
+        .contact {
+          &.calllock {
+            width: auto !important;
+          }
+          svg {
+            font-size: 19px;
+          }
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0 20px;
+
+      .social {
+        div {
+          a {
+            svg {
+              font-size: 19px !important;
+            }
+            span {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+
+      .ooo p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .rodal-dialog {
+    #header {
+      .profile {
+        img {
+          width: 120px !important;
+        }
+        h1 {
+          font-size: 24px !important;
+        }
+      }
+      .social-links a {
+        width: 36px !important;
+        height: 35px !important;
+        font-size: 18px !important;
+        margin-right: 4px !important;
+      }
+
+      .nav-menu a,
+      .nav-menu a:focus {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  header .container {
+    max-width: 400px !important;
+  }
+
+  main .container {
+    max-width: 400px !important;
+
+    .section-one {
+      gap: 40px;
+
+      .title {
+        h1 {
+          font-size: 52px !important;
+          line-height: 64px;
+        }
+        div {
+          .toContact {
+            width: 140px !important;
+            height: 45px !important;
+            border-radius: 0.6em;
+
+            span {
+              font-size: 20px;
+              line-height: 46px !important;
+            }
+          }
+
+          p {
+            font-size: 19px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 305px !important;
+        border-radius: 2em 4em 0 4em !important;
+
+        .rectangle2 {
+          border-radius: 0 4em 0 4em !important;
+        }
+        .rectangle3 {
+          border-radius: 0 4em 0 4em !important;
+        }
+      }
+    }
+
+    .section-two {
+      padding: 140px 10px 100px;
+      gap: 0px;
+
+      .about {
+        h1 {
+          font-size: 29px;
+          line-height: 40px;
+        }
+        h2 {
+          font-size: 21px;
+          line-height: 34px;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(0.7) translateX(59%);
+      }
+    }
+
+    .section-three {
+      gap: 70px;
+      .education {
+        .edu {
+          img {
+            height: 100px;
+          }
+          .edu-title {
+            h1 {
+              font-size: 24px;
+            }
+            h2 {
+              font-size: 22px;
+            }
+            h3 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .experience {
+        .exp {
+          img {
+            height: 100px;
+          }
+          .exp-title {
+            h1 {
+              font-size: 24px;
+            }
+            h2 {
+              font-size: 22px;
+            }
+            h3 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      gap: 20px;
+
+      .portfolio {
+        font-size: 36px;
+      }
+
+      .all-project {
+        font-size: 18px;
+      }
+
+    }
+  }
+
+  footer .container {
+    max-width: 400px !important;
+    gap: 15px !important;
+
+    .LetsWork {
+      top: -100px;
+      right: 10px;
+      font-size: 28px;
+      line-height: 38px;
+    }
+
+    .footer-top {
+      padding: 20px 0 10px;
+
+      .contacts {
+        flex-direction: column;
+        gap: 20px;
+
+        .calllock {
+          flex-direction: column;
+          gap: 20px !important;
+          width: auto !important;
+        }
+
+        .contact {
+          &.calllock {
+            width: auto !important;
+          }
+          svg {
+            font-size: 21px;
+          }
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0 20px;
+
+      .social {
+        gap: 25px !important;
+
+        div {
+          flex-direction: column;
+          gap: 20px !important;
+
+          a {
+            gap: 5px !important;
+
+            svg {
+              font-size: 21px !important;
+            }
+            span {
+              font-size: 20px !important;
+            }
+          }
+        }
+      }
+
+      .ooo p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  header .container {
+    max-width: 350px !important;
+  }
+
+  main .container {
+    max-width: 350px !important;
+
+    .section-one {
+      padding-top: 125px !important;
+      gap: 30px;
+
+      .title {
+        gap: 25px;
+
+        h1 {
+          font-size: 46px !important;
+          line-height: 56px;
+        }
+        div {
+          .toContact {
+            width: 125px !important;
+            height: 35px !important;
+            border-radius: 0.5em;
+
+            span {
+              font-size: 18px;
+              line-height: 36px !important;
+            }
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+      .image {
+        width: 100% !important;
+        height: 265px !important;
+        border-radius: 2em 3em 0 3em !important;
+
+        .rectangle2 {
+          border-radius: 0 3em 0 3em !important;
+        }
+        .rectangle3 {
+          border-radius: 0 3em 0 3em !important;
+        }
+      }
+    }
+
+    .section-two {
+      .about {
+        h1 {
+          font-size: 26px;
+          line-height: 40px;
+        }
+        h2 {
+          font-size: 18px;
+
+          line-height: 28px;
+        }
+      }
+      .skills {
+        position: relative !important;
+        width: 100% !important;
+        height: 400px !important;
+        right: 50%;
+        transform: scale(0.65) translateX(71%);
+
+        h1 {
+          width: 228px;
+          font-size: 22px;
+        }
+      }
+    }
+
+    .section-three {
+      gap: 70px;
+      .education {
+        .edu {
+          img {
+            height: 80px;
+          }
+          .edu-title {
+            h1 {
+              font-size: 20px;
+            }
+            h2 {
+              font-size: 19px;
+            }
+            h3 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .experience {
+        .exp {
+          img {
+            height: 80px;
+          }
+          .exp-title {
+            h1 {
+              font-size: 20px;
+            }
+            h2 {
+              font-size: 19px;
+            }
+            h3 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-four {
+      padding: 120px 10px 0;
+      margin-bottom: 220px !important;
+      gap: 10px;
+
+      .portfolio {
+        font-size: 32px;
+      }
+
+      .all-project {
+        font-size: 16px;
+      }
+
+      .projects .project {
+        padding: 15px;
+      }
+    }
+  }
+
+  footer .container {
+    max-width: 350px !important;
+
+    .LetsWork {
+      top: -80px;
+      right: 12px;
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+}

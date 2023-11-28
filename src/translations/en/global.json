@@ -1,0 +1,55 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "project": "Projects",
+    "contact": "Contact"
+  },
+  "section-one": {
+    "frontend": "Frontend",
+    "developer": "Developer",
+    "react": "React",
+    "redux": "Redux",
+    "toContact": "Get in Touch",
+    "available": "Available for Hire"
+  },
+  "section-two": {
+    "hello": "Hello! I'm",
+    "name": "Shoxrux Asadov",
+    "job": "Frontend Developer",
+    "city": "from Uzbekistan",
+    "skill": "Basic Skills",
+    "subtitle": "With my passion for frontend development and strong technical skills, I am ready to contribute to innovative projects and deliver great software."
+  },
+  "section-three": {
+    "edu": "Education",
+    "exp": "Experience",
+    "tuitName": "Tashkent University of Information Technologies",
+    "tuitDire": "Software Engineering",
+    "tuitYear": "September 2022 - June 2026",
+    "shiftName": "Shift Academy",
+    "shiftDire": "Full Stack Developer",
+    "shiftYear": "December 2022 - December 2023",
+    "upworkName": "Upwork",
+    "upworkYear": "June 2023 ...",
+    "kworkName": "Kwork",
+    "kworkYear": "June 2023 ..."
+  },
+  "section-four": {
+    "portfolio": "Portfolio",
+    "project": "Project",
+    "seeall": "See all my portfolio",
+    "omengamesTitle": "Games Store",
+    "lorenzonTitle": "Music Player",
+    "puzzleTitle": "Game"
+  },
+  "footer":{
+    "have": "Have a project?",
+    "lets": "Let's work together!"
+  },
+  "error": {
+    "title": "Sorry, the page you visited does not exist.",
+    "button": "Back Home"
+  }
+}
