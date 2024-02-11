@@ -1,13 +1,13 @@
 Hi 👋 My name is Shoxrux Asadov
 ===============================
 
-Frontend Developer | React, Redux
+MERN Stack Developer & Web Designer
 ---------------------------------
 
 With my passion for frontend development and solid technical skills, <br/>
 I am ready to contribute to innovative projects and deliver exceptional user experiences.
 
-*   🌍  I'm based in Bukhara, Uzbekistan
+*   🌍  I'm based in Tashkent, Uzbekistan
 *   🖥️  See my portfolio at [Shoxrux Asadov](http://shoxruxasadov.uz)
 *   ✉️  You can contact me at [@mail.ru](mailto:shoxruxasadov05@mail.ru)
 *   🧠  I'm learning Backend | NodeJS, ExpressJS, MongoDB
@@ -16,7 +16,7 @@ I am ready to contribute to innovative projects and deliver exceptional user exp
                   
 ### Skills 
 <p align="left">
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
+<a href="https://nodejs.org/en" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
@@ -35,6 +35,7 @@ I am ready to contribute to innovative projects and deliver exceptional user exp
 ### Socials
 <p align="left">
 <a href="https://www.facebook.com/shoxruxasadovv" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> &nbsp;
+<a href="https://t.me/shoxruxasadovv" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/49933115/139837223-bf23d3a9-4638-4e17-994a-ac8678d5f517.png" width="32" height="32" /></a> &nbsp;
 <a href="https://www.github.com/ShoxruxAsadov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> &nbsp;
 <a href="http://www.instagram.com/shoxruxasadovv" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> &nbsp;
 <a href="https://www.linkedin.com/in/shoxruxasadov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> &nbsp;

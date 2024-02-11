@@ -1,15 +1,21 @@
-import { useTranslation } from "react-i18next";
-import Ellipse1 from "../../images/SectionOne/Ellipse1.png";
-import Ellipse2 from "../../images/SectionOne/Ellipse2.png";
-import Ellipse3 from "../../images/SectionOne/Ellipse3.png";
-import Shokhdev from "../../images/SectionOne/Shokhdev.webp";
-import { Link } from "react-scroll";
+import React from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import Shoxruxasadov from "../../images/hero/Shoxruxasadov.webp";
+
+import knot from "../../images/elements/knot.svg"
+import cube from "../../images/elements/cube.svg"
+import torus from "../../images/elements/torus.svg"
+import toruslight from "../../images/elements/toruslight.svg"
+import balllight from "../../images/elements/balllight.svg"
 
 export default function Hero() {
   const [t, i18n] = useTranslation("global");
+
   return (
-    <section id="home" className="section section-one">
+    <section id="home" className="section">
+      <img id="cube" src={cube} alt="cube" />
+      <img id="torus" src={torus} alt="torus" />
       <motion.div
         initial={{ y: "2rem", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -17,28 +23,23 @@ export default function Hero() {
         className="title"
       >
         <h1>
-          {t("section-one.frontend")} <br /> <span>&</span>{" "}
-          {t("section-one.developer")} <br />
-          {t("section-one.react")} <span>&</span> {t("section-one.redux")}
+          <span className="mern"><span id="m">M</span><span id="e">E</span><span id="r">R</span><span id="n">N</span>{t("section-one.mern")}</span><br />
+          <span className="and">&nbsp;<img id="balllight" src={balllight} alt="balllight" /></span>
+          <span className="dev">{t("section-one.dev")}&nbsp;&nbsp;&nbsp;</span>
+          <img id="knot" src={knot} /><br />
+          <span className="dev">{t("section-one.design")}</span>
         </h1>
-        <div>
-          <Link
-            className="toContact"
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+        <div className="links">
+          <a
+            href="https://docviewer.yandex.ru/view/1108099949/?*=ToKnn%2BO4dS%2F1WE1OtccrgRkDbP97InVybCI6InlhLWRpc2stcHVibGljOi8vSWkxK21yRXVLeStGbUlFOUZQZzF6TEVoT2FHN0RJYTJiY3J6RmtrRWQwc0g0OTFObXVGVG5iOG5vcVlsa2hMQ3EvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoiU2hveHJ1eCBBc2Fkb3YgKEVuZ2xpc2ggQ1YpLnBkZiIsIm5vaWZyYW1lIjpmYWxzZSwidWlkIjoiMTEwODA5OTk0OSIsInRzIjoxNzA3NTU3Mzg4MTk1LCJ5dSI6IjIzNzc0MTA4NzE3MDAwNjc4NDMifQ%3D%3D"
+            target="_blank"
           >
-            <span>{t("section-one.toContact")}</span>
-          </Link>
+            <span>{t("section-one.resume")}</span>
+          </a>
           <div className="dot">
-            <img src={Ellipse1} />
-            <img src={Ellipse2} />
-            <img src={Ellipse3} />
+            <img src={toruslight} />
           </div>
-          <p>{t("section-one.available")}</p>
+          <p>{t("section-one.hire")}</p>
         </div>
       </motion.div>
       <motion.div
@@ -47,7 +48,7 @@ export default function Hero() {
         transition={{ duration: 2, type: "spring" }}
         className="image"
       >
-        <img src={Shokhdev} />
+        <img src={Shoxruxasadov} />
         <div className="top">
           <div className="rectangle1"></div>
           <div className="rectangle2"></div>

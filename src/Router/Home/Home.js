@@ -1,26 +1,23 @@
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import React from "react";
+import Header from "../../components/Header";
 import Hero from "../../components/Main/Hero";
-import SectionTwo from "../../components/Main/SectionTwo";
-import SectionThree from "../../components/Main/SectionThree";
-import SectionFour from "../../components/Main/SectionFour";
-import { Analytics } from "@vercel/analytics/react";
+import About from "../../components/Main/About";
+import Education from "../../components/Main/Education";
+import Potfolio from "../../components/Main/Portfolio";
+import Footer from "../../components/Footer";
+
 
 export default function Home() {
-  const language = localStorage.getItem("lang");
   return (
     <>
       <Header />
       <main>
-        <div className="container">
-          <Hero />
-          <SectionTwo />
-          <SectionThree />
-          <SectionFour />
-        </div>
+        <Hero />
+        <About />
+        <Education />
+        <Potfolio />
       </main>
       <Footer />
-      <Analytics />
     </>
   );
 }
