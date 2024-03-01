@@ -1,7 +1,7 @@
 Hi 👋 My name is Shoxrux Asadov
 ===============================
 
-MERN Stack Developer
+MERN Stack Developer | NestJS & NextJS
 ---------------------------
 
 With my passion for frontend development and solid technical skills, <br/>
