@@ -12,7 +12,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import uz from "../images/languages/uz.svg"
 import ru from "../images/languages/ru.svg"
 import en from "../images/languages/en.svg"
-import preson from "../images/person.png";
+import person from "../images/person.png";
 import logo from "../images/logo.png"
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
         <div id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <img src={preson} className="img-fluid rounded-circle" />
+              <img src={person} className="img-fluid rounded-circle" />
               <h1 className="text-light">
                 <NavLink to="/">Shoxrux Asadov</NavLink>
               </h1>
@@ -63,7 +63,7 @@ export default function Header() {
                 >
                   <BiLogoLinkedin />
                 </a>
-                <a className="social resume" href="https://docviewer.yandex.ru/view/1108099949/?*=ToKnn%2BO4dS%2F1WE1OtccrgRkDbP97InVybCI6InlhLWRpc2stcHVibGljOi8vSWkxK21yRXVLeStGbUlFOUZQZzF6TEVoT2FHN0RJYTJiY3J6RmtrRWQwc0g0OTFObXVGVG5iOG5vcVlsa2hMQ3EvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoiU2hveHJ1eCBBc2Fkb3YgKEVuZ2xpc2ggQ1YpLnBkZiIsIm5vaWZyYW1lIjpmYWxzZSwidWlkIjoiMTEwODA5OTk0OSIsInRzIjoxNzA3NTU3Mzg4MTk1LCJ5dSI6IjIzNzc0MTA4NzE3MDAwNjc4NDMifQ%3D%3D">
+                <a className="social resume" href="https://docviewer.yandex.ru/view/1108099949/?*=DF26G1ZR2qZx1R7oD9ryl7%2FJ7Ul7InVybCI6InlhLWRpc2s6Ly8vZGlzay9yZXN1bWUucGRmIiwidGl0bGUiOiJyZXN1bWUucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIxMTA4MDk5OTQ5IiwidHMiOjE3MDk5OTM2OTg5NjksInl1IjoiMjM3NzQxMDg3MTcwMDA2Nzg0MyJ9">
                   <BiSolidCloudDownload />
                 </a>
               </div>
