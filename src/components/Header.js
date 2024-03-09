@@ -12,7 +12,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import uz from "../images/languages/uz.svg"
 import ru from "../images/languages/ru.svg"
 import en from "../images/languages/en.svg"
-import profile from "../images/profil.png";
+import preson from "../images/person.png";
 import logo from "../images/logo.png"
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
         <div id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <img src={profile} className="img-fluid rounded-circle" />
+              <img src={preson} className="img-fluid rounded-circle" />
               <h1 className="text-light">
                 <NavLink to="/">Shoxrux Asadov</NavLink>
               </h1>
