@@ -1,8 +1,8 @@
 Hi 👋 My name is Shoxrux Asadov
 ===============================
 
-MERN Stack Developer & Web Designer
----------------------------------
+MERN Stack Developer | NestJS & NextJS
+---------------------------
 
 With my passion for frontend development and solid technical skills, <br/>
 I am ready to contribute to innovative projects and deliver exceptional user experiences.
@@ -10,7 +10,7 @@ I am ready to contribute to innovative projects and deliver exceptional user exp
 *   🌍  I'm based in Tashkent, Uzbekistan
 *   🖥️  See my portfolio at [Shoxrux Asadov](http://shoxruxasadov.uz)
 *   ✉️  You can contact me at [@mail.ru](mailto:shoxruxasadov05@mail.ru)
-*   🧠  I'm learning Backend | NodeJS, ExpressJS, MongoDB
+*   🧠  I'm learning Backend | NestJS, MongoDB
 
 &#32;&#32;<a href="https://www.github.com/ShoxruxAsadov" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/ShoxruxAsadov?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
                   
