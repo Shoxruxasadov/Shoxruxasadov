@@ -4,9 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import "rodal/lib/rodal.css";
-import "./styles/style.scss";
-import "./styles/media.scss";
-import "./styles/global.css";
+import "./styles/global.scss";
 
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";

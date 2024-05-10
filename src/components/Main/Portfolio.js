@@ -2,17 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import { SiMonkeytie, SiFramer, SiReact, SiRedux, SiFirebase, SiNodedotjs, SiExpress, SiMongodb, SiDjango, SiPython } from "react-icons/si";
+import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiContactlesspayment, SiReact, SiRedux } from "react-icons/si";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
+import { PiContactlessPaymentFill } from "react-icons/pi";
+import { MdMarkEmailUnread } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
-
-import pill from "../../images/elements/pill.svg"
-import cubo from "../../images/elements/cubo.svg"
-
-import lorenzon from "../../images/projects/lorenzon.png";
-import school from "../../images/projects/regularschool.png";
-import company from "../../images/projects/regularcompany.png";
-import arsim from "../../images/projects/arsim.png";
 
 export default function Portfolio() {
   const [t, i18n] = useTranslation("global");
@@ -20,58 +14,67 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className="section section-four">
-      <img id="pill" src={pill} alt="pill" />
-      <img id="cubo" src={cubo} alt="cubo" />
       <div className="title">
         <h1 className="portfolio">{t("section-four.project")}</h1>
         <hr />
-        <p onClick={() => navigate("/work")} className="all-project"><span>{t("section-four.seeall")}</span><IoIosArrowForward /></p>
+        <p onClick={() => navigate("/works")} className="all-project"><span>{t("section-four.seeall")}</span><IoIosArrowForward /></p>
       </div>
       <div className="projects">
         <div className="project">
-          <img src={lorenzon} />
+          <img src="/images/projects/Lorenzon.png" />
           <div className="content">
             <h1>Lorenzon</h1>
+            <h3>Music Streaming Service | Similar to Spotify</h3>
             <div className="prolang">
-              <SiNodedotjs title="NodeJS" />
-              <SiReact title="ReactJS" />
-              <SiRedux title="Redux" />
+              <SiNextdotjs title="NextJS" />
+              <SiNestjs title="NestJS" />
               <SiMongodb title="MongoDB" />
-              <SiExpress title="ExpressJS" />
+              <SiFoodpanda  title="Zustand"/>
+              {/* <SiNodedotjs title="NodeJS"/> */}
+              {/* <SiExpress title="ExpressJS"/> */}
+              <SiReactquery title="React Query" />
+              {/* <SiAxios title="Axios" /> */}
+              {/* <SiSocketdotio title="Web Socket" /> */}
+              {/* <SiFirebase title="Firebase" /> */}
               <SiFramer title="Framer Motion" />
+              {/* <SiSass title="SASS"/> */}
+              <SiTailwindcss title="Tailwind CSS" />
+              {/* <SiStyledcomponents title="Style Component"/> */}
+              <MdMarkEmailUnread title="Verify Email" />
+              <PiContactlessPaymentFill title="Payment" />
             </div>
-            <h3>
-              Musiqa tinglash uchun o'zbekistondagi eng birinchi sifatli websayt,
-              bu websayt ustida ko'p vaqt ishlangan, <span>oxiriga yetmagan loyiha</span>!
-            </h3>
             <div className="link">
               <a target="_blank" href="https://lorenzon.uz">
                 <AiOutlineLink />
                 <span>Link</span>
               </a>
-              <a target="_blank" href="https://github.com/Shoxruxasadov/Lorenzon">
+              <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon-client">
                 <AiOutlineGithub />
-                <span>Source</span>
+                <span>Frontend</span>
+              </a>
+              <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon-server">
+                <AiOutlineGithub />
+                <span>Backend</span>
               </a>
             </div>
           </div>
         </div>
         <div className="project">
-          <img src={school} />
+          <img src="/images/projects/Regular School.png" />
           <div className="content">
             <h1>Regular School</h1>
+            <h3>
+              Landing page ( CRM system coming soon ) !
+            </h3>
             <div className="prolang">
-              <SiPython title="Python" />
               <SiReact title="React" />
+              <SiReactquery title="React Query" />
               <SiRedux title="Redux" />
               <SiFirebase title="Firebase" />
-              <SiDjango title="Django" />
               <SiFramer title="Framer Motion" />
+              (<SiNestjs title="NestJS" />
+              <SiMongodb title="MongoDB" />)
             </div>
-            <h3>
-              Regular IT School uchun <br /> crm sistema va landing page.
-            </h3>
-
             <div className="link">
               <a target="_blank" href="https://regularschool.uz">
                 <AiOutlineLink />
@@ -85,45 +88,17 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="project">
-          <img src={arsim} />
-          <div className="content">
-            <h1>AR SIM Hotel</h1>
-            <div className="prolang">
-              <SiReact title="React" />
-              <SiRedux title="Redux" />
-              <SiFirebase title="Firebase" />
-              <SiFramer title="Framer Motion" />
-              <SiMonkeytie title="Reservation" />
-            </div>
-            <h3>
-              AR SIM mehmonxonasi uchun <br /> crm sistema va landing page, <span>deploy jarayonida</span>!
-            </h3>
-
-            <div className="link">
-              <a target="_blank" href="https://shoxruxasadov.uz">
-                <AiOutlineLink />
-                <span>Link</span>
-              </a>
-              <a target="_blank" href="https://github.com/Shoxruxasadov">
-                <AiOutlineGithub />
-                <span>Source</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project">
-          <img src={company} />
+          <img src='/images/projects/Regular Company.png' />
           <div className="content">
             <h1>Regular Company</h1>
+            <h3>
+            Landing page and Serivces.
+            </h3>
             <div className="prolang">
               <SiReact title="React" />
-              <SiRedux title="Redux" />
-              <SiFirebase title="Firebase" />
+              <SiTailwindcss title="Tailwind CSS" />
               <SiFramer title="Framer Motion" />
             </div>
-            <h3>
-              Regular IT Company uchun <br /> landing page va servis xizmatlar.
-            </h3>
             <div className="link">
               <a target="_blank" href="https://regularcompany.uz">
                 <AiOutlineLink />
@@ -137,6 +112,8 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+      <img id="pill" src="/images/elements/pill.svg" alt="pill" />
+      <img id="cubo" src="/images/elements/cubo.svg" alt="cubo" />
     </section>
   );
 }

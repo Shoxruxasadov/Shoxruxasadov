@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./Router/Home/Home"
-import Error from "./Router/Error/Error"
-import Project from "./Router/Project/Project"
+import Home from "./pages/Home/Home"
+import Error from "./pages/Error/Error"
+import Project from "./pages/Project/Project"
 
 export const router = createBrowserRouter([
   {
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     errorElement: <Error />,
   },
   {
-    path: "/work",
+    path: "/works",
     element: <Home />,
   }
 ]);

@@ -9,12 +9,6 @@ import { BiLogoInstagramAlt, BiLogoLinkedin, BiLogoGithub, BiSolidCloudDownload,
 import { IoMail } from "react-icons/io5";
 import { HiMenuAlt3 } from "react-icons/hi";
 
-import uz from "../images/languages/uz.svg"
-import ru from "../images/languages/ru.svg"
-import en from "../images/languages/en.svg"
-import person from "../images/person.png";
-import logo from "../images/logo.png"
-
 export default function Header() {
   const [t, i18n] = useTranslation("global");
   const [rodal, setRodal] = useState(false);
@@ -34,10 +28,10 @@ export default function Header() {
   return (
     <>
       <Rodal visible={rodal} onClose={() => setRodal(false)}>
-        <div id="header">
+        <header id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <img src={person} className="img-fluid rounded-circle" />
+              <img src="/images/person.png" className="img-fluid rounded-circle" />
               <h1 className="text-light">
                 <NavLink to="/">Shoxrux Asadov</NavLink>
               </h1>
@@ -63,7 +57,9 @@ export default function Header() {
                 >
                   <BiLogoLinkedin />
                 </a>
-                <a className="social resume" href="https://docviewer.yandex.ru/view/1108099949/?*=DF26G1ZR2qZx1R7oD9ryl7%2FJ7Ul7InVybCI6InlhLWRpc2s6Ly8vZGlzay9yZXN1bWUucGRmIiwidGl0bGUiOiJyZXN1bWUucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIxMTA4MDk5OTQ5IiwidHMiOjE3MDk5OTM2OTg5NjksInl1IjoiMjM3NzQxMDg3MTcwMDA2Nzg0MyJ9">
+                <a href="/resume.pdf"
+                  className="social resume"
+                  target="_blank">
                   <BiSolidCloudDownload />
                 </a>
               </div>
@@ -88,7 +84,7 @@ export default function Header() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={0}
+                  offset={-400}
                   duration={500}
                   onClick={() => setRodal(false)}
                 >
@@ -122,12 +118,12 @@ export default function Header() {
               </ul>
             </nav>
           </div>
-        </div>
+        </header>
       </Rodal>
       <header>
         <div className="container">
           <Link to="/" className="logo">
-            <img src={logo} alt="logo" />
+            <img src="/images/logo.png" alt="logo" />
             <h3>Shoxrux</h3>
           </Link>
           <div className="list">
@@ -175,9 +171,9 @@ export default function Header() {
             </ul>
             <HiMenuAlt3 onClick={() => setRodal(true)} className="menu" />
             <div className="lang" onClick={handleChangeLanguage}>
-              {i18n.language === "en" && <img src={en} />}
-              {i18n.language === "ru" && <img src={ru} />}
-              {i18n.language === "uz" && <img src={uz} />}
+              {i18n.language === "en" && <img src="/images/languages/en.svg" />}
+              {i18n.language === "ru" && <img src="/images/languages/ru.svg" />}
+              {i18n.language === "uz" && <img src="/images/languages/uz.svg" />}
             </div>
           </div>
         </div>

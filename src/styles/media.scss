@@ -1951,3 +1951,16 @@
     }
   }
 }
+
+@media (min-height: 880px) and (min-width: 901px) {
+  main #home #torus {
+    top: 690px;
+  }
+}
+
+@media (min-width: 901px) {
+  main #home {
+    height: calc(100vh - 80px);
+    max-height: 920px;
+  }
+}

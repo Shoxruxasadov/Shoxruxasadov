@@ -60,13 +60,17 @@ export default function Footer() {
               >
                 <BiLogoLinkedin />
               </Link>
-              <a className="social resume" >
-                <BiSolidCloudDownload />
-              </a>
+              <Link
+                to={"/resume.pdf"}
+                className="social linkedin"
+                target="_blank"
+              >
+              <BiSolidCloudDownload />
+              </Link>
             </div>
           </div>
           <div className="ooo">
-            <p>Copyright © 2023 | <Link to="https://Shoxruxasadov.uz">Powered By</Link></p>
+            <p>Copyright © 2023</p>
           </div>
         </div>
       </div>

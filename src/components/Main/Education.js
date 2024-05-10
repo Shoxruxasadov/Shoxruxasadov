@@ -1,11 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import tuit from "../../images/education/tatu.png";
-import shift from "../../images/education/shift.png";
-import regular from "../../images/education/regular.png";
-import empire from "../../images/education/empire.png";
-
 export default function Education() {
   const [t, i18n] = useTranslation("global");
 
@@ -14,7 +9,7 @@ export default function Education() {
       <div className="education">
         <p>{t("section-three.edu")}</p>
         <div className="edu tuit">
-          <img src={tuit} />
+          <img src="/images/education/tatu.png" />
           <div className="edu-title">
             <h1>{t("section-three.tuitName")}</h1>
             <h2>{t("section-three.tuitDire")}</h2>
@@ -22,7 +17,7 @@ export default function Education() {
           </div>
         </div>
         <div className="edu shift">
-          <img src={shift} />
+          <img src="/images/education/shift.png" />
           <div className="edu-title">
             <h1>{t("section-three.shiftName")}</h1>
             <h2>{t("section-three.shiftDire")}</h2>
@@ -33,7 +28,7 @@ export default function Education() {
       <div className="experience">
         <p>{t("section-three.exp")}</p>
         <div className="exp regular">
-          <img src={regular} />
+          <img src="/images/education/regular.png" />
           <div className="exp-title">
             <h1>{t("section-three.regularName")}</h1>
             <h2>{t("section-three.regularDire")}</h2>
@@ -41,7 +36,7 @@ export default function Education() {
           </div>
         </div>
         <div className="exp kwork">
-          <img src={empire} />
+          <img src="/images/education/empire.png" />
           <div className="exp-title">
             <h1>{t("section-three.empireName")}</h1>
             <h2>{t("section-three.empireDire")}</h2>
