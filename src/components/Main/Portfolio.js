@@ -48,13 +48,9 @@ export default function Portfolio() {
                 <AiOutlineLink />
                 <span>Link</span>
               </a>
-              <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon-client">
+              <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon">
                 <AiOutlineGithub />
-                <span>Frontend</span>
-              </a>
-              <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon-server">
-                <AiOutlineGithub />
-                <span>Backend</span>
+                <span>Source</span>
               </a>
             </div>
           </div>
