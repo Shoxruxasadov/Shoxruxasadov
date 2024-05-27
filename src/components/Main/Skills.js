@@ -125,14 +125,14 @@ export default function Skills() {
             name: "Docker",
             icon: <SiDocker />
         },
-        {
-            name: "Nodemon",
-            icon: <SiNodemon />
-        },
-        {
-            name: "NodeTS",
-            icon: <SiTsnode />
-        },
+        // {
+        //     name: "Nodemon",
+        //     icon: <SiNodemon />
+        // },
+        // {
+        //     name: "NodeTS",
+        //     icon: <SiTsnode />
+        // },
         {
             name: "JWT",
             icon: <SiJsonwebtokens />
