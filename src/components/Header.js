@@ -118,7 +118,7 @@ export default function Header() {
               </ul>
             </nav>
           </div>
-        </header>
+        </div>
       </Rodal>
       <header>
         <div className="container">
