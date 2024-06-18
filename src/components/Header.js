@@ -120,7 +120,7 @@ export default function Header() {
           </div>
         </header>
       </Rodal>
-      <header>
+      <nav>
         <div className="container">
           <Link to="/" className="logo">
             <img src="/images/logo.png" alt="logo" />
