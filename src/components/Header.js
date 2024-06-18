@@ -28,7 +28,7 @@ export default function Header() {
   return (
     <>
       <Rodal visible={rodal} onClose={() => setRodal(false)}>
-        <header id="header">
+        <div id="header">
           <div className="d-flex flex-column">
             <div className="profile">
               <img src="/images/person.png" className="img-fluid rounded-circle" />
@@ -120,7 +120,7 @@ export default function Header() {
           </div>
         </header>
       </Rodal>
-      <nav>
+      <header>
         <div className="container">
           <Link to="/" className="logo">
             <img src="/images/logo.png" alt="logo" />
