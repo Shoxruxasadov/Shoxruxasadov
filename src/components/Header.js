@@ -84,7 +84,7 @@ export default function Header() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-400}
+                  offset={0}
                   duration={500}
                   onClick={() => setRodal(false)}
                 >
