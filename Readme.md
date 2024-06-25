@@ -8,7 +8,7 @@ With my passion for frontend development and solid technical skills, <br/>
 I am ready to contribute to innovative projects and deliver exceptional user experiences.
 
 *   🌍  I'm based in Tashkent, Uzbekistan
-*   🖥️  See my portfolio at [Shoxrux Asadov](http://shoxruxasadov.uz)
+*   🖥️  See my portfolio at [Shoxrux Asadov](https://shoxrux.site)
 *   ✉️  You can contact me at [@mail.ru](mailto:shoxruxasadov05@mail.ru)
 *   🧠  I'm learning Backend | NestJS, MongoDB
 
