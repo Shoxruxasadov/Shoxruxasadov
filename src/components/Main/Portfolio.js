@@ -21,6 +21,34 @@ export default function Portfolio() {
       </div>
       <div className="projects">
         <div className="project">
+          <img src="/images/projects/MovieGo.png" />
+          <div className="content">
+            <h1>MovieGo</h1>
+            <h3>Movie Streaming Service</h3>
+            <div className="prolang">
+              <SiNextdotjs title="NextJS" />
+              <SiNestjs title="NestJS" />
+              <SiMongodb title="MongoDB" />
+              <SiFoodpanda  title="Zustand"/>
+              <SiReactquery title="React Query" />
+              <SiFirebase title="Firebase" />
+              <SiFramer title="Framer Motion" />
+              <SiTailwindcss title="Tailwind CSS" />
+              <MdMarkEmailUnread title="Verify Email" />
+            </div>
+            <div className="link">
+              <a target="_blank" href="https://moviego.uz">
+                <AiOutlineLink />
+                <span>Link</span>
+              </a>
+              <a target="_blank" href="https://github.com/Shoxruxasadov/MovieGo">
+                <AiOutlineGithub />
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project">
           <img src="/images/projects/Lorenzon.png" />
           <div className="content">
             <h1>Lorenzon</h1>
@@ -49,34 +77,6 @@ export default function Portfolio() {
                 <span>Link</span>
               </a>
               <a target="_blank" href="https://github.com/Shoxruxasadov/lorenzon">
-                <AiOutlineGithub />
-                <span>Source</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project">
-          <img src="/images/projects/MovieGo.png" />
-          <div className="content">
-            <h1>MovieGo</h1>
-            <h3>Movie Streaming Service</h3>
-            <div className="prolang">
-              <SiNextdotjs title="NextJS" />
-              <SiNestjs title="NestJS" />
-              <SiMongodb title="MongoDB" />
-              <SiFoodpanda  title="Zustand"/>
-              <SiReactquery title="React Query" />
-              <SiFirebase title="Firebase" />
-              <SiFramer title="Framer Motion" />
-              <SiTailwindcss title="Tailwind CSS" />
-              <MdMarkEmailUnread title="Verify Email" />
-            </div>
-            <div className="link">
-              <a target="_blank" href="https://moviego.uz">
-                <AiOutlineLink />
-                <span>Link</span>
-              </a>
-              <a target="_blank" href="https://github.com/Shoxruxasadov/MovieGo">
                 <AiOutlineGithub />
                 <span>Source</span>
               </a>
