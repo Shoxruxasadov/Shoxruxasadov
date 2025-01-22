@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiContactlesspayment, SiReact, SiRedux } from "react-icons/si";
+import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiContactlesspayment, SiReact, SiRedux, SiStripe } from "react-icons/si";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
