@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 
 import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiContactlesspayment, SiReact, SiRedux } from "react-icons/si";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
-import { PiContactlessPaymentFill } from "react-icons/pi";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -32,9 +31,11 @@ export default function Portfolio() {
               <SiFoodpanda  title="Zustand"/>
               <SiReactquery title="React Query" />
               <SiFirebase title="Firebase" />
+              <SiSocketdotio title="WebSocket" />
               <SiFramer title="Framer Motion" />
               <SiTailwindcss title="Tailwind CSS" />
               <MdMarkEmailUnread title="Verify Email" />
+              <SiStripe title="Stripe" />
             </div>
             <div className="link">
               <a target="_blank" href="https://moviego.uz">
@@ -58,18 +59,14 @@ export default function Portfolio() {
               <SiNestjs title="NestJS" />
               <SiMongodb title="MongoDB" />
               <SiFoodpanda  title="Zustand"/>
-              {/* <SiNodedotjs title="NodeJS"/> */}
-              {/* <SiExpress title="ExpressJS"/> */}
               <SiReactquery title="React Query" />
-              {/* <SiAxios title="Axios" /> */}
-              {/* <SiSocketdotio title="Web Socket" /> */}
-              {/* <SiFirebase title="Firebase" /> */}
+              <SiAxios title="Axios" />
+              <SiSocketdotio title="WebSocket" />
+              <SiFirebase title="Firebase" />
               <SiFramer title="Framer Motion" />
-              {/* <SiSass title="SASS"/> */}
               <SiTailwindcss title="Tailwind CSS" />
-              {/* <SiStyledcomponents title="Style Component"/> */}
               <MdMarkEmailUnread title="Verify Email" />
-              <PiContactlessPaymentFill title="Payment" />
+              <SiStripe title="Stripe" />
             </div>
             <div className="link">
               <a target="_blank" href="https://lorenzon.uz">
@@ -105,30 +102,6 @@ export default function Portfolio() {
                 <span>Link</span>
               </a>
               <a target="_blank" href="https://github.com/regularschool/regularschool">
-                <AiOutlineGithub />
-                <span>Source</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project">
-          <img src='/images/projects/Regular Company.png' />
-          <div className="content">
-            <h1>Regular Company</h1>
-            <h3>
-            Landing page and Serivces.
-            </h3>
-            <div className="prolang">
-              <SiReact title="React" />
-              <SiTailwindcss title="Tailwind CSS" />
-              <SiFramer title="Framer Motion" />
-            </div>
-            <div className="link">
-              <a target="_blank" href="https://regularcompany.uz">
-                <AiOutlineLink />
-                <span>Link</span>
-              </a>
-              <a target="_blank" href="https://github.com/regularschool/regularcompany">
                 <AiOutlineGithub />
                 <span>Source</span>
               </a>

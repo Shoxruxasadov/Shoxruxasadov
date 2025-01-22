@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiReact, SiRedux, SiGit, SiBootstrap, SiCss3, SiJavascript, SiTypescript, SiDocker, SiPostgresql, SiPrisma, SiVercel, SiReduxsaga, SiHtml5, SiMui, SiMobx, SiGithub, SiMinutemailer, SiNodemon, SiTsnode, SiJsonwebtokens } from "react-icons/si";
+import { SiNextdotjs, SiFoodpanda, SiReactquery, SiFirebase, SiFramer, SiNestjs, SiSocketdotio, SiAxios, SiSass, SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss, SiStyledcomponents, SiReact, SiRedux, SiGit, SiBootstrap, SiCss3, SiJavascript, SiTypescript, SiDocker, SiPostgresql, SiPrisma, SiVercel, SiReduxsaga, SiHtml5, SiMui, SiMobx, SiGithub, SiJsonwebtokens, SiSupabase, SiStripe } from "react-icons/si";
 
 export default function Skills() {
     const frontend = [
@@ -40,12 +40,28 @@ export default function Skills() {
             icon: <SiTypescript />
         },
         {
+            name: "Axios",
+            icon: <SiAxios />
+        },
+        {
             name: "HTML",
             icon: <SiHtml5 />
         },
         {
             name: "CSS",
             icon: <SiCss3 />
+        },
+        {
+            name: "Vercel",
+            icon: <SiVercel />
+        },
+        {
+            name: "Git",
+            icon: <SiGit />
+        },
+        {
+            name: "GitHub",
+            icon: <SiGithub />
         },
         {
             name: "SASS",
@@ -71,20 +87,13 @@ export default function Skills() {
             name: "Style Component",
             icon: <SiStyledcomponents />
         },
-        {
-            name: "Firebase",
-            icon: <SiFirebase />
-        },
-        {
-            name: "Git",
-            icon: <SiGit />
-        },
-        {
-            name: "GitHub",
-            icon: <SiGithub />
-        }
+        
     ]
     const backend = [
+        {
+            name: "NestJS",
+            icon: <SiNestjs />
+        },
         {
             name: "NodeJS",
             icon: <SiNodedotjs />
@@ -92,10 +101,6 @@ export default function Skills() {
         {
             name: "ExpressJS",
             icon: <SiExpress />
-        },
-        {
-            name: "NestJS",
-            icon: <SiNestjs />
         },
         {
             name: "MongoDB",
@@ -114,28 +119,24 @@ export default function Skills() {
             icon: <SiSocketdotio />
         },
         {
-            name: "Axios",
-            icon: <SiAxios />
-        },
-        {
-            name: "Vercel",
-            icon: <SiVercel />
-        },
-        {
             name: "Docker",
             icon: <SiDocker />
         },
-        // {
-        //     name: "Nodemon",
-        //     icon: <SiNodemon />
-        // },
-        // {
-        //     name: "NodeTS",
-        //     icon: <SiTsnode />
-        // },
         {
             name: "JWT",
             icon: <SiJsonwebtokens />
+        },
+        {
+            name: "Firebase",
+            icon: <SiFirebase />
+        },
+        {
+            name: "Supabase",
+            icon: <SiSupabase />
+        },
+        {
+            name: "Stripe",
+            icon: <SiStripe />
         },
     ]
 
