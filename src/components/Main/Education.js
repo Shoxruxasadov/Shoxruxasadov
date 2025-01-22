@@ -9,7 +9,7 @@ export default function Education() {
       <div className="education">
         <p>{t("section-three.edu")}</p>
         <div className="wrapper">
-          <div className="edu tuit">
+          <div className="edu">
             <img src="/images/education/tatu.png" />
             <div className="edu-title">
               <h1>{t("section-three.tuitName")}</h1>
@@ -17,7 +17,7 @@ export default function Education() {
               <h3>{t("section-three.tuitYear")}</h3>
             </div>
           </div>
-          <div className="edu shift">
+          <div className="edu">
             <img src="/images/education/shift.png" />
             <div className="edu-title">
               <h1>{t("section-three.shiftName")}</h1>
@@ -30,7 +30,23 @@ export default function Education() {
       <div className="experience">
         <p>{t("section-three.exp")}</p>
         <div className="wrapper">
-          <div className="exp regular">
+          <div className="exp">
+            <img src="/images/education/empire.png" />
+            <div className="exp-title">
+              <h1>{t("section-three.empireName")}w</h1>
+              <h2>{t("section-three.empireDire")}</h2>
+              <h3>{t("section-three.empireYear")}</h3>
+            </div>
+          </div>
+          <div className="exp">
+            <img src="/images/education/empire.png" />
+            <div className="exp-title">
+              <h1>{t("section-three.empireName")}c</h1>
+              <h2>{t("section-three.empireDire")}</h2>
+              <h3>{t("section-three.empireYear")}</h3>
+            </div>
+          </div>
+          <div className="exp">
             <img src="/images/education/regular.png" />
             <div className="exp-title">
               <h1>{t("section-three.regularName")}</h1>
@@ -38,10 +54,18 @@ export default function Education() {
               <h3>{t("section-three.regularYear")}</h3>
             </div>
           </div>
-          <div className="exp kwork">
+          <div className="exp">
             <img src="/images/education/empire.png" />
             <div className="exp-title">
               <h1>{t("section-three.empireName")}</h1>
+              <h2>{t("section-three.empireDire")}</h2>
+              <h3>{t("section-three.empireYear")}</h3>
+            </div>
+          </div>
+          <div className="exp">
+            <img src="/images/education/empire.png" />
+            <div className="exp-title">
+              <h1>{t("section-three.empireName")}r</h1>
               <h2>{t("section-three.empireDire")}</h2>
               <h3>{t("section-three.empireYear")}</h3>
             </div>
