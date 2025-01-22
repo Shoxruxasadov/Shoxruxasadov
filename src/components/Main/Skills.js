@@ -32,16 +32,12 @@ export default function Skills() {
             icon: <SiMobx />
         },
         {
-            name: "JavaScript",
-            icon: <SiJavascript />
-        },
-        {
             name: "TypeScript",
             icon: <SiTypescript />
         },
         {
-            name: "Axios",
-            icon: <SiAxios />
+            name: "JavaScript",
+            icon: <SiJavascript />
         },
         {
             name: "HTML",
@@ -56,12 +52,16 @@ export default function Skills() {
             icon: <SiVercel />
         },
         {
+            name: "GitHub",
+            icon: <SiGithub />
+        },
+        {
             name: "Git",
             icon: <SiGit />
         },
         {
-            name: "GitHub",
-            icon: <SiGithub />
+            name: "Axios",
+            icon: <SiAxios />
         },
         {
             name: "SASS",
