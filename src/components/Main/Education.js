@@ -33,17 +33,17 @@ export default function Education() {
           <div className="exp">
             <img src="/images/education/empire.png" />
             <div className="exp-title">
-              <h1>{t("section-three.empireName")}w</h1>
-              <h2>{t("section-three.empireDire")}</h2>
-              <h3>{t("section-three.empireYear")}</h3>
+              <h1>{t("section-three.webnumName")}</h1>
+              <h2>{t("section-three.webnumDire")}</h2>
+              <h3>{t("section-three.webnumYear")}</h3>
             </div>
           </div>
           <div className="exp">
             <img src="/images/education/empire.png" />
             <div className="exp-title">
-              <h1>{t("section-three.empireName")}c</h1>
-              <h2>{t("section-three.empireDire")}</h2>
-              <h3>{t("section-three.empireYear")}</h3>
+              <h1>{t("section-three.comnetName")}</h1>
+              <h2>{t("section-three.comnetDire")}</h2>
+              <h3>{t("section-three.comnetYear")}</h3>
             </div>
           </div>
           <div className="exp">
@@ -65,9 +65,9 @@ export default function Education() {
           <div className="exp">
             <img src="/images/education/empire.png" />
             <div className="exp-title">
-              <h1>{t("section-three.empireName")}r</h1>
-              <h2>{t("section-three.empireDire")}</h2>
-              <h3>{t("section-three.empireYear")}</h3>
+              <h1>{t("section-three.rustName")}</h1>
+              <h2>{t("section-three.rustDire")}</h2>
+              <h3>{t("section-three.rustYear")}</h3>
             </div>
           </div>
         </div>

@@ -620,13 +620,13 @@ main {
   .section-three {
     width: 100%;
     padding: 0 10px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     margin-top: 40px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
 
     .education {
       width: 100%;
@@ -644,6 +644,8 @@ main {
 
       .wrapper {
         display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
 
         .edu {
           width: 55%;
@@ -711,6 +713,8 @@ main {
 
       .wrapper {
         display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
 
         .exp {
           width: 55%;

@@ -24,18 +24,34 @@
   "section-three": {
     "edu": "Education",
     "exp": "Experience",
+
     "tuitName": "Tashkent University of Information Technologies",
     "tuitDire": "Software Engineering (Distance)",
     "tuitYear": "September 2022 - Present",
+
     "shiftName": "Shift Academy",
     "shiftDire": "Web Developer",
     "shiftYear": "January 2023 - August 2023",
-    "regularName": "Regular IT School",
+
+    "webnumName": "Webnum (OOO 'WEBNUM')",
+    "webnumDire": "Frontend Developer",
+    "webnumYear": "January 2025 - Present..",
+
+    "comnetName": "Comnet (OOO 'IPLUS')",
+    "comnetDire": "Manager",
+    "comnetYear": "October 2024 - January 2025 (4month)",
+
+    "regularName": "Regular School (OOO 'AR SIM')",
     "regularDire": "Web Developer",
-    "regularYear": "September 2023 - Present",
+    "regularYear": "September 2023 - July 2024 (10month)",
+
     "empireName": "Empire Soft",
     "empireDire": "Frontend Developer (Internship)",
-    "empireYear": "September 2023 - December 2023"
+    "empireYear": "September 2023 - December 2023 (4month)",
+
+    "rustName": "Rust Studio",
+    "rustDire": "Frontend Developer (Freelancer)",
+    "rustYear": "July 2023 - September 2023 (4month)"
   },
   "section-four": {
     "project": "Projects",

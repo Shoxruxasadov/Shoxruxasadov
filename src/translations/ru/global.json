@@ -24,22 +24,34 @@
   "section-three": {
     "edu": "Образование",
     "exp": "Опыт",
-    "upworkName": "Упворк",
-    "upworkYear": "Июнь 2023 ...",
-    "kworkName": "Кворк",
-    "kworkYear": "Июнь 2023 ...",
+
     "tuitName": "Ташкентский Университет Информационных Технологий",
     "tuitDire": "Программная инженерия (Дистанционная)",
     "tuitYear": "Сентябрь 2022 - до сейчас",
+
     "shiftName": "Shift Academy",
     "shiftDire": "Веб разработчик",
     "shiftYear": "Января 2023 - Август 2023",
-    "regularName": "Regular IT School",
+
+    "webnumName": "Webnum (OOO 'WEBNUM')",
+    "webnumDire": "Фронтенд разработчик",
+    "webnumYear": "Январь 2025 - До сейчас..",
+
+    "comnetName": "Comnet (OOO 'IPLUS')",
+    "comnetDire": "Менеджер",
+    "comnetYear": "Октябрь 2024 - Январь 2025 (4месяц)",
+
+    "regularName": "Regular School (OOO 'AR SIM')",
     "regularDire": "Веб разработчик",
-    "regularYear": "Сентябрь 2023 - до сейчас",
+    "regularYear": "Сентябрь 2023 - Июль 2024 (10месяц)",
+
     "empireName": "Empire Soft",
     "empireDire": "Фронтенд разработчик (Стажировка)",
-    "empireYear": "Сентябрь 2023 - декабрь 2023"
+    "empireYear": "Сентябрь 2023 - Декабрь 2023 (4месяц)",
+    
+    "rustName": "Rust Studio",
+    "rustDire": "Фронтенд разработчик (Фрилансер)",
+    "rustYear": "Июль 2023 - Сентябрь 2023 (4месяц)"
   },
   "section-four": {
     "project": "Проекти",

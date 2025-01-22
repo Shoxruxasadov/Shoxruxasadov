@@ -24,18 +24,34 @@
   "section-three": {
     "edu": "Ta'lim",
     "exp": "Tajriba",
+
     "tuitName": "Toshkent Axborot Texnologiyalari Universiteti",
     "tuitDire": "Dasturiy Injiniring (Masofaviy)",
     "tuitYear": "Sentyabr 2022 - hozirgacha",
+
     "shiftName": "Shift Academy",
     "shiftDire": "Web Dasturlash",
     "shiftYear": "Yanvar 2023 - Avgust 2023",
-    "regularName": "Regular IT School",
+
+    "webnumName": "Webnum (OOO 'WEBNUM')",
+    "webnumDire": "Frontend Dasturchi",
+    "webnumYear": "Yanvar 2025 - Hozirgacha..",
+
+    "comnetName": "Comnet (OOO 'IPLUS')",
+    "comnetDire": "Menejer",
+    "comnetYear": "Oktyabr 2024 - Yanvar 2025 (4oy)",
+
+    "regularName": "Regular School (OOO 'AR SIM')",
     "regularDire": "Web Dasturchi",
-    "regularYear": "Sentyabr 2023 - hozirgacha",
+    "regularYear": "Sentyabr 2023 - Iyul 2024 (10oy)",
+
     "empireName": "Empire Soft",
     "empireDire": "Frontend Dasturchi (Amaliyot)",
-    "empireYear": "Sentyabr 2023 - Dekabr 2023"
+    "empireYear": "Sentyabr 2023 - Dekabr 2023 (4oy)",
+
+    "rustName": "Rust Studio",
+    "rustDire": "Frontend Dasturchi (Freelancer)",
+    "rustYear": "Iyul 2023 - Sentyabr 2023 (4oy)"
   },
   "section-four": {
     "project": "Loyihalar",
