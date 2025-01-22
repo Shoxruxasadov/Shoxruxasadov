@@ -10,7 +10,7 @@ export default function Education() {
         <p>{t("section-three.edu")}</p>
         <div className="wrapper">
           <div className="edu">
-            <img src="/images/education/tatu.webp" />
+            <img src="/images/education/tuit.webp" />
             <div className="edu-title">
               <h1>{t("section-three.tuitName")}</h1>
               <h2>{t("section-three.tuitDire")}</h2>
@@ -47,7 +47,7 @@ export default function Education() {
             </div>
           </div>
           <div className="exp">
-            <img src="/images/education/regular.wep" />
+            <img src="/images/education/regular.webp" />
             <div className="exp-title">
               <h1>{t("section-three.regularName")}</h1>
               <h2>{t("section-three.regularDire")}</h2>
