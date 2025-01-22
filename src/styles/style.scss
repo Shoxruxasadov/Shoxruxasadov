@@ -146,12 +146,15 @@ header {
 
           li {
             cursor: pointer;
+
             &:nth-child(1) {
               padding-top: 10px;
             }
+
             &:nth-child(2) {
               padding: 0 5px;
             }
+
             &:nth-child(3) {
               padding-bottom: 10px;
             }
@@ -393,6 +396,7 @@ main {
           border-radius: 10em;
           opacity: 0.7;
         }
+
         .rectangle2 {
           width: 82%;
           height: 100%;
@@ -463,6 +467,7 @@ main {
         letter-spacing: -0.401px;
         text-shadow: 0 0 5px black;
       }
+
       h1 {
         font-size: 43px;
         font-weight: 300;
@@ -474,6 +479,7 @@ main {
           font-weight: 500;
         }
       }
+
       h2 {
         color: #707186;
         font-size: 22px;
@@ -552,18 +558,21 @@ main {
           top: 170px;
           right: 310px;
         }
+
         &.express {
           transform: scale(1.24);
           position: absolute;
           top: 170px;
           right: 247px;
         }
+
         &.react {
           transform: scale(1.1);
           position: absolute;
           top: 170px;
           right: 187px;
         }
+
         &.node {
           transform: scale(1.05);
           position: absolute;
@@ -583,18 +592,21 @@ main {
           right: 312px;
           color: #6aa341;
         }
+
         &.express {
           position: absolute;
           top: 215px;
           right: 251.5px;
           color: #d17770;
         }
+
         &.react {
           position: absolute;
           top: 215px;
           right: 187px;
           color: #61dbfb;
         }
+
         &.node {
           position: absolute;
           top: 215px;
@@ -612,12 +624,12 @@ main {
     margin-top: 40px;
 
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 40px;
 
     .education {
-      width: 55%;
-      height: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       gap: 30px;
@@ -630,52 +642,61 @@ main {
         letter-spacing: -0.401px;
       }
 
-      .edu {
-        width: 100%;
-        height: 80px;
+      .wrapper {
         display: flex;
-        gap: 15px;
 
-        img {
-          height: 100%;
-          border-radius: 50%;
-          box-shadow: 0 0 10px #00000060;
-        }
-
-        .edu-title {
+        .edu {
+          width: 55%;
+          height: 80px;
           display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          padding: 2px 0;
+          gap: 15px;
 
-          h1 {
-            color: #d6d6d6;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 20px;
-            letter-spacing: -0.4px;
+          &:nth-child(even){
+            width: 50%;
           }
-          h2 {
-            color: #d6d6d6;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 20px;
-            letter-spacing: -0.4px;
+
+          img {
+            height: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00000060;
           }
-          h3 {
-            color: #d6d6d6;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 20px;
-            letter-spacing: -0.4px;
+
+          .edu-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 2px 0;
+
+            h1 {
+              color: #d6d6d6;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
+
+            h2 {
+              color: #d6d6d6;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
+
+            h3 {
+              color: #d6d6d6;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
           }
         }
       }
     }
 
     .experience {
-      width: 45%;
-      height: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       gap: 30px;
@@ -688,42 +709,49 @@ main {
         letter-spacing: -0.401px;
       }
 
-      .exp {
-        width: 100%;
-        height: 80px;
+      .wrapper {
         display: flex;
-        gap: 15px;
 
-        img {
-          height: 100%;
-          border-radius: 50%;
-          box-shadow: 0 0 10px #00000060;
-        }
-
-        .exp-title {
+        .exp {
+          width: 50%;
+          height: 80px;
           display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          padding: 2px 0 h1 {
-            color: #d6d6d6;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 20px;
-            letter-spacing: -0.4px;
+          gap: 15px;
+
+          img {
+            height: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00000060;
           }
-          h2 {
-            color: #d6d6d6;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 20px;
-            letter-spacing: -0.4px;
-          }
-          h3 {
-            color: #d6d6d6;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 20px;
-            letter-spacing: -0.4px;
+
+          .exp-title {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            padding: 2px 0 h1 {
+              color: #d6d6d6;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
+
+            h2 {
+              color: #d6d6d6;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
+
+            h3 {
+              color: #d6d6d6;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: -0.4px;
+            }
           }
         }
       }
@@ -756,6 +784,7 @@ main {
         p {
           text-align: center;
         }
+
         .wrapper {
           justify-content: center !important;
           margin-bottom: 70px;
@@ -816,26 +845,85 @@ main {
             white-space: nowrap;
           }
 
-          &.NextJS:hover{color:#000000}
-          &.React:hover{color:#61DBFB}
-          &.React.Query:hover{color:#FF4154}
-          &.Redux.Toolkit:hover{color:#7549B9}
-          &.Redux.Saga:hover{color:#89D96D}
-          &.Zustand:hover{color:#F78139}
-          &.MobX:hover{color:#D7570B}
-          &.JavaScript:hover{color:#F7DF1E}
-          &.TypeScript:hover{color:#007ACC}
-          &.HTML:hover{color:#FF5325}
-          &.CSS:hover{color:#264EE4}
-          &.SASS:hover{color:#CD669A}
-          &.Tailwind.CSS:hover{color:#38BDF8}
-          &.Bootstrap:hover{color:#7111F5}
-          &.Framer.Motion:hover{color:#E630BE}
-          &.Material.UI:hover{color:#007FFF}
-          &.Style.Component:hover{color:#BF4F74}
-          &.Firebase:hover{color:#FFCC31}
-          &.Git:hover{color:#F34F29}
-          &.GitHub:hover{color:#171515}
+          &.NextJS:hover {
+            color: #000000
+          }
+
+          &.React:hover {
+            color: #61DBFB
+          }
+
+          &.React.Query:hover {
+            color: #FF4154
+          }
+
+          &.Redux.Toolkit:hover {
+            color: #7549B9
+          }
+
+          &.Redux.Saga:hover {
+            color: #89D96D
+          }
+
+          &.Zustand:hover {
+            color: #F78139
+          }
+
+          &.MobX:hover {
+            color: #D7570B
+          }
+
+          &.JavaScript:hover {
+            color: #F7DF1E
+          }
+
+          &.TypeScript:hover {
+            color: #007ACC
+          }
+
+          &.HTML:hover {
+            color: #FF5325
+          }
+
+          &.CSS:hover {
+            color: #264EE4
+          }
+
+          &.SASS:hover {
+            color: #CD669A
+          }
+
+          &.Tailwind.CSS:hover {
+            color: #38BDF8
+          }
+
+          &.Bootstrap:hover {
+            color: #7111F5
+          }
+
+          &.Framer.Motion:hover {
+            color: #E630BE
+          }
+
+          &.Material.UI:hover {
+            color: #007FFF
+          }
+
+          &.Style.Component:hover {
+            color: #BF4F74
+          }
+
+          &.Firebase:hover {
+            color: #FFCC31
+          }
+
+          &.Git:hover {
+            color: #F34F29
+          }
+
+          &.GitHub:hover {
+            color: #171515
+          }
         }
       }
     }
@@ -853,6 +941,7 @@ main {
         p {
           text-align: center;
         }
+
         .wrapper {
           justify-content: center !important;
         }
@@ -911,19 +1000,57 @@ main {
             white-space: nowrap;
           }
 
-          &.NodeJS:hover{color:#8CC03E}
-          &.ExpressJS:hover{color:#828282}
-          &.NestJS:hover{color:#E0234E}
-          &.MongoDB:hover{color:#4FAA41}
-          &.PostgreSQL:hover{color:#336791}
-          &.Prisma:hover{color:#0C344B}
-          &.SocketIo:hover{color:#010101}
-          &.Axios:hover{color:#5A24E5}
-          &.Vercel:hover{color:#000000}
-          &.Docker:hover{color:#1D97EE}
-          &.Nodemon:hover{color:#2EDF83}
-          &.NodeTS:hover{color:#2261A8}
-          &.JWT:hover{color:#FB015B}
+          &.NodeJS:hover {
+            color: #8CC03E
+          }
+
+          &.ExpressJS:hover {
+            color: #828282
+          }
+
+          &.NestJS:hover {
+            color: #E0234E
+          }
+
+          &.MongoDB:hover {
+            color: #4FAA41
+          }
+
+          &.PostgreSQL:hover {
+            color: #336791
+          }
+
+          &.Prisma:hover {
+            color: #0C344B
+          }
+
+          &.SocketIo:hover {
+            color: #010101
+          }
+
+          &.Axios:hover {
+            color: #5A24E5
+          }
+
+          &.Vercel:hover {
+            color: #000000
+          }
+
+          &.Docker:hover {
+            color: #1D97EE
+          }
+
+          &.Nodemon:hover {
+            color: #2EDF83
+          }
+
+          &.NodeTS:hover {
+            color: #2261A8
+          }
+
+          &.JWT:hover {
+            color: #FB015B
+          }
         }
       }
     }
@@ -988,7 +1115,7 @@ main {
         color: #707186;
         cursor: pointer;
 
-        span{
+        span {
           font-weight: 700;
           white-space: nowrap;
         }
@@ -1388,6 +1515,7 @@ footer {
           width: 140px;
           border: 7px solid #2c2f3f;
         }
+
         h1 {
           font-size: 28px;
           margin: 0;
@@ -1403,6 +1531,7 @@ footer {
             text-decoration: none;
           }
         }
+
         .social-links a {
           font-size: 24px;
           display: flex;
@@ -1434,7 +1563,7 @@ footer {
         list-style: none;
       }
 
-      .nav-menu > ul > li {
+      .nav-menu>ul>li {
         position: relative;
         white-space: nowrap;
       }
@@ -1466,7 +1595,7 @@ footer {
       .nav-menu a:hover,
       .nav-menu .active,
       .nav-menu .active:focus,
-      .nav-menu li:hover > a {
+      .nav-menu li:hover>a {
         text-decoration: none;
         color: #fff;
       }
@@ -1474,7 +1603,7 @@ footer {
       .nav-menu a:hover i,
       .nav-menu .active i,
       .nav-menu .active:focus i,
-      .nav-menu li:hover > a i {
+      .nav-menu li:hover>a i {
         color: #149ddd;
       }
     }
