@@ -65,6 +65,7 @@ const shoxrux = {
 <img src="https://img.shields.io/badge/Expo-1C1917?style=for-the-badge&logo=expo&logoColor=FFFFFF" alt="Expo" />
 <img src="https://img.shields.io/badge/Expo%20Router-1C1917?style=for-the-badge&logo=expo&logoColor=FFFFFF" alt="Expo Router" />
 <img src="https://img.shields.io/badge/Reanimated-1C1917?style=for-the-badge" alt="Reanimated" />
+<img src="https://img.shields.io/badge/Kotlin-1C1917?style=for-the-badge&logo=kotlin&logoColor=7F52FF" alt="Kotlin" />
 
 **Backend**
 
@@ -94,6 +95,7 @@ const shoxrux = {
 <img src="https://img.shields.io/badge/Figma-1C1917?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
 <img src="https://img.shields.io/badge/Postman-1C1917?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
 <img src="https://img.shields.io/badge/VS%20Code-1C1917?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
+<img src="https://img.shields.io/badge/IntelliJ%20IDEA-1C1917?style=for-the-badge&logo=intellijidea&logoColor=FFFFFF" alt="IntelliJ IDEA" />
 
 </div>
 
