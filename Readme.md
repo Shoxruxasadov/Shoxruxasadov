@@ -18,7 +18,7 @@
 <!-- ====================== ABOUT ME ====================== -->
 ## 👨‍💻 About Me
 
-```javascript
+<!-- ```javascript
 const shoxrux = {
   role: "Full-Stack & Mobile Developer",
   level: "Middle",
@@ -27,9 +27,9 @@ const shoxrux = {
   focus: ["Web & Mobile apps", "Clean architecture", "Great UX"],
   motto: "Build it well, ship it, make it feel right",
 };
-```
+``` -->
 
-- ⚙️ &nbsp;Comfortable across the whole stack — frontend, backend, databases & deployment
+- ⚙️ &nbsp;Comfortable across the whole stack — Frontend, Backend, Databases, Mobile & Deployment
 - 💬 &nbsp;Ask me about **React, Next.js, NestJS, React Native, TypeScript**
 - 🖥️ &nbsp;Check out my portfolio → **[shoxruxasadov.uz](https://shoxruxasadov.uz)**
 - 📫 &nbsp;Reach me at **[shoxruxasadov05@mail.ru](mailto:shoxruxasadov05@mail.ru)**
@@ -76,7 +76,6 @@ const shoxrux = {
 <img src="https://img.shields.io/badge/Socket.io-1C1917?style=for-the-badge&logo=socketdotio&logoColor=FFFFFF" alt="Socket.io" />
 <img src="https://img.shields.io/badge/JWT-1C1917?style=for-the-badge&logo=jsonwebtokens&logoColor=FFFFFF" alt="JWT" />
 <img src="https://img.shields.io/badge/Passport-1C1917?style=for-the-badge&logo=passport&logoColor=34E27A" alt="Passport" />
-<img src="https://img.shields.io/badge/Auth.js-1C1917?style=for-the-badge" alt="Auth.js" />
 
 **Database**
 
