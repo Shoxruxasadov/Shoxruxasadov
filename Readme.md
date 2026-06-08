@@ -103,8 +103,8 @@ const shoxrux = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Shoxruxasadov&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=0891B2&icon_color=0891B2&text_color=C9D1D9&bg_color=1C1917" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shoxruxasadov&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=C9D1D9&bg_color=1C1917" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats-rho-steel-19.vercel.app/api?username=Shoxruxasadov&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=0891B2&icon_color=0891B2&text_color=C9D1D9&bg_color=1C1917" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats-rho-steel-19.vercel.app/api/top-langs/?username=Shoxruxasadov&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=C9D1D9&bg_color=1C1917" alt="Top Languages" />
 </div>
 
 <div align="center">
