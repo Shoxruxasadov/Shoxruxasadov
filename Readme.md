@@ -1,6 +1,6 @@
 <!-- ====================== HEADER ====================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,100:0E7490&height=200&section=header&text=Shoxrux%20Asadov&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%26%20Mobile%20Developer&descAlignY=58&descSize=18&descColor=ffffff" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,100:0E7490&height=200&section=header&text=Shoxrux%20Asadov&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%7C%20Mobile%20Developer&descAlignY=58&descSize=18&descColor=ffffff" alt="header" />
 </div>
 
 <!-- ====================== TYPING SUBTITLE ====================== -->
@@ -113,10 +113,6 @@ const shoxrux = {
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shoxruxasadov&hide_border=true&bg_color=1C1917&color=0891B2&line=0891B2&point=C9D1D9&area=true&area_color=0891B2" alt="Activity Graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shoxruxasadov&theme=algolia&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
 </div>
 
 <!-- ====================== SNAKE ====================== -->
