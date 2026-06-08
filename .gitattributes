@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+package-lock.json linguist-generated=true
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
