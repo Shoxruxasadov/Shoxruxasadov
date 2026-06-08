@@ -5,7 +5,7 @@
 
 <!-- ====================== TYPING SUBTITLE ====================== -->
 <div align="center">
-  <a href="https://shoxrux.site">
+  <a href="https://shoxruxasadov.uz">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=0891B2&center=true&vCenter=true&width=650&height=45&lines=Full-Stack+%26+Mobile+Developer;Web+with+React+%26+Next.js;Mobile+with+React+Native+%26+Expo;Backend+with+NestJS+%26+Node.js;Based+in+Tashkent%2C+Uzbekistan" alt="Typing SVG" />
   </a>
   <br/>
@@ -29,11 +29,9 @@ const shoxrux = {
 };
 ```
 
-- 🔭 &nbsp;Building **web & mobile** apps with **React**, **Next.js**, **NestJS** and **React Native**
 - ⚙️ &nbsp;Comfortable across the whole stack — frontend, backend, databases & deployment
 - 💬 &nbsp;Ask me about **React, Next.js, NestJS, React Native, TypeScript**
-- 🌱 &nbsp;Always learning and leveling up
-- 🖥️ &nbsp;Check out my portfolio → **[shoxrux.site](https://shoxrux.site)**
+- 🖥️ &nbsp;Check out my portfolio → **[shoxruxasadov.uz](https://shoxruxasadov.uz)**
 - 📫 &nbsp;Reach me at **[shoxruxasadov05@mail.ru](mailto:shoxruxasadov05@mail.ru)**
 - ⚡ &nbsp;Fun fact: I care as much about *how it feels* as *how it works*
 
@@ -135,12 +133,10 @@ const shoxrux = {
 ## 🌐 Connect with Me
 
 <div align="center">
-  <a href="https://shoxrux.site"><img src="https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://shoxruxasadov.uz"><img src="https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/shoxruxasadov"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://t.me/shoxruxasadovv"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://www.instagram.com/shoxruxasadovv"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://www.youtube.com/@Shoxruxasadovv"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" /></a>
-  <a href="https://www.facebook.com/shoxruxasadovv"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
   <a href="mailto:shoxruxasadov05@mail.ru"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
 
